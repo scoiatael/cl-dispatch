@@ -41,17 +41,17 @@
 
 ;;; source
 
-(cenum (source-type :base-type :pointer :define-constants t)
-       ((:data-add-source "DISPATCH_SOURCE_TYPE_DATA_ADD"))
-       ((:data-or-source "DISPATCH_SOURCE_TYPE_DATA_OR"))
-       ((:mach-receive-source "DISPATCH_SOURCE_TYPE_MACH_RECV"))
-       ((:mach-send-source "DISPATCH_SOURCE_TYPE_MACH_SEND"))
-       ((:process-source "DISPATCH_SOURCE_TYPE_PROC"))
-       ((:read-source "DISPATCH_SOURCE_TYPE_READ"))
-       ((:signal-source "DISPATCH_SOURCE_TYPE_SIGNAL"))
-       ((:timer-source "DISPATCH_SOURCE_TYPE_TIMER"))
-       ((:vnode-source "DISPATCH_SOURCE_TYPE_VNODE"))
-       ((:write-source "DISPATCH_SOURCE_TYPE_WRITE")))
+;; (cenum (source-type :base-type :pointer :define-constants t)
+;;        ((:data-add-source "DISPATCH_SOURCE_TYPE_DATA_ADD"))
+;;        ((:data-or-source "DISPATCH_SOURCE_TYPE_DATA_OR"))
+;;        ((:mach-receive-source "DISPATCH_SOURCE_TYPE_MACH_RECV"))
+;;        ((:mach-send-source "DISPATCH_SOURCE_TYPE_MACH_SEND"))
+;;        ((:process-source "DISPATCH_SOURCE_TYPE_PROC"))
+;;        ((:read-source "DISPATCH_SOURCE_TYPE_READ"))
+;;        ((:signal-source "DISPATCH_SOURCE_TYPE_SIGNAL"))
+;;        ((:timer-source "DISPATCH_SOURCE_TYPE_TIMER"))
+;;        ((:vnode-source "DISPATCH_SOURCE_TYPE_VNODE"))
+;;        ((:write-source "DISPATCH_SOURCE_TYPE_WRITE")))
 
 #| FIXME: It's failing to find these in the headers, even though they appear to exist
 (cenum (mach-send-flags :define-constants t)
